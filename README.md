@@ -6,7 +6,7 @@ Cada equipo está formado por tres jugadores donde cada uno tendrá un rol espec
 
 ## Desarrollo
 
-En esta sección se actualizan todos los elementos del juego desarrollados y testeados. 
+En esta sección se actualizan todos los elementos del juego desarrollados y testeados. Asimismo, en el siguiente enlace se puede observar la planificación de desarrollo estimada y los objetivos que vamos alcanzado: https://trello.com/b/K0sSg4sv/planning-pavilion 
 
 ### Interfaz:
   - Formularios para iniciar sesión y registrarse
