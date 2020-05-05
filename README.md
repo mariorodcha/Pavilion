@@ -41,8 +41,9 @@ Los problemas y bugs encontrados por ahora son los siguientes:
   
 ## Recursos
   - Para el multijugador en línea:
-      - Todos los videos de esta playlist oficial de Unreal Engine 4: https://www.youtube.com/watch?v=abmzWUWxy1U&list=PLZlv_N0_O1gYqSlbGQVKsRg6fpxWndZqZ
-      - Todos los videos de esta playlist: https://www.youtube.com/watch?v=qW2XxWPQSlg&list=PLn5SJYtWkakK1SfOdn8_fKMiyy3It4EVU
+      - Playlists de tutoriales:
+          - https://www.youtube.com/watch?v=abmzWUWxy1U&list=PLZlv_N0_O1gYqSlbGQVKsRg6fpxWndZqZ
+          - https://www.youtube.com/watch?v=qW2XxWPQSlg&list=PLn5SJYtWkakK1SfOdn8_fKMiyy3It4EVU
       - Documentación de Unreal Engine:
           - https://docs.unrealengine.com/en-US/Gameplay/Networking/Blueprints/index.html
           - https://docs.unrealengine.com/en-US/Gameplay/Networking/Actors/index.html
