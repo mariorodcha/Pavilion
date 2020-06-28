@@ -14,14 +14,27 @@ En esta sección se actualizan todos los elementos del juego desarrollados y tes
   - Creación de partidas
   - Seleccion de personaje y mapa
   - HUD en partida del jugador: Actualiza vida y munición
-  - HUD en partida para la puntuación de las rondas 
+  - HUD en partida para la puntuación de las rondas
+  - Pantalla de final de partida
   - Enlace Iniciar Sesión ---- Menú principal
   - Enlace Menú Principal ---- Crear Partida
   - Enlace Crear Partida ---- Lobby (seleccionar mapa y personaje
   - Enlace Lobby ---- Partida
+  - Enlace Partida ---- Menú Principal
 ### Personajes
   - Personaje base: Movimiento y carrera, movimiento de cámara, salto, disparo, recarga, coger bandera, soltar bandera, parámetros y muerte.
   - Personaje base: Animaciones de disparo, recarga y muerte.
+  - Asalto:
+    - Habilidad 1
+    - Habilidad 2
+    - Habilidad 3
+  - Protección
+     - Pasiva
+     - Habilidad 2
+     - Habilidad 3
+   - Especialista
+     - Habilidad 1
+     - Habilidad 2
 ### Lógica de Partida
   - Asignación de equipos en el lobby
   - Marcador de rondas
@@ -32,12 +45,16 @@ En esta sección se actualizan todos los elementos del juego desarrollados y tes
   - Configuración de sesiones online: configurar un server como host y unirse al server como cliente
   - Configuración del lobby: muestra y actualiza la información de los jugadores quue se unen al lobby
   - Lógica para buscar o crear una partida
+  - Lógica de partida en cliente y servidor
 ## Problemas
 Los problemas y bugs encontrados por ahora son los siguientes: 
 
-  - Para implementar el multijugador en línea nos hemos respaldado en el subsistema online de Steam disponinble en los plugins de Unreal Engine 4, pero la documentación que hemos seguido es de hace unos años y no hemos conseguido conectar clientes a un server todavía.
-  - Los inputs del ratón en la partida nos están dando problemas: para rotar la cámara hay que hacer click y mantener (la idea es que gire al mover el ratón, sin click).
-  - Hay un bug temporal en el seleccionar personaje. Cuando seleccionas un personaje, se guarda en el slot y la siguiente vez que lanzas el juego, el personaje seleccionado se mantiene. Cuando se añada el fin de partida en la lógica, ese campo se limpia.
+  - Para implementar el multijugador en línea nos hemos respaldado en el subsistema online de Steam disponinble en los plugins de Unreal Engine 4, pero la documentación que hemos seguido es de hace unos años y no hemos conseguido conectar clientes a un server todavía. (Solucionado)
+  - Los inputs del ratón en la partida nos están dando problemas: para rotar la cámara hay que hacer click y mantener (la idea es que gire al mover el ratón, sin click). (Solucionado)
+  - Hay un bug temporal en el seleccionar personaje. Cuando seleccionas un personaje, se guarda en el slot y la siguiente vez que lanzas el juego, el personaje seleccionado se mantiene. Cuando se añada el fin de partida en la lógica, ese campo se limpia. (Solucionado)
+  - El hit entre personajes de cliente/servidor no se actualiza correctamente. Cuando el "servidor" dispara a un personaje, este no recibe daño en el lado del Cliente.
+  - Granada explosiva no spawnea.
+  - Ganada de humo, no aparece humo en el cliente.
   
 ## Recursos
   - Para el multijugador en línea:
